@@ -26,17 +26,19 @@ This directory contains all scripts used during synthesis including:
 This directory contains all rtl-source files, testbench file, netlists after logical and physical synthesizes as well as back annotation in sdf-file and design in def-file.
 
 # How to synthesize ASIC layout from RTL-design:
-Firstly make directories for logs and temporary files in project root (this directoy)
+Firstly make directories for logs and temporary files in project root (this directory) <br />
 **_mkdir Encounter RTL_Compiler_**
+
 ## Logical Synthesis
 Secondly do a logical synthesis in RTL-Compiler
-Go to new directiry 
+- Go to new directory <br />
 **_cd /RTL_Compiler_**
-Run script
+- Run script <br />
 **_RTL_Compiler ../Scripts/filter_syn.tcl_**
+
 ## Physical Synthesis
 Finally do a physical synthesis in Encounter
-Go to new directory 
-**_cd ../Encounter_**
-Run script
+- Go to new directory <br />
+**_cd ../Encounter_** 
+- Run script <br />
 **_Encounter ../Scripts/filter_PaR.tcl_**
