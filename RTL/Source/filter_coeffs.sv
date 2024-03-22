@@ -1,3 +1,9 @@
+// Project name: Filter
+// Author: P. P. Kolbenkov
+// File description: Coefficients for FIR and IIR parts of filter
+
+`timescale 1ns/1ns
+
 module coeffs(
     output signed [14:0] a_c [0:5],
     output signed [11:0] b_c [0:3]

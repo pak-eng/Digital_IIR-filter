@@ -1,3 +1,7 @@
+// Project name: Filter
+// Author: P. P. Kolbenkov
+// File description: Decription of combinational logic for fixed-point accumulator blocks
+
 `timescale 1 ns / 1 ns
 
 module sumin

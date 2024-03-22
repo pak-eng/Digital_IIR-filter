@@ -1,3 +1,7 @@
+// Project name: Filter
+// Author: P. P. Kolbenkov
+// File description: FIR-part of filter
+
 `timescale 1 ns / 1 ns
 
 module FIR_section(
@@ -38,8 +42,8 @@ module FIR_section(
   reg signed [10:0] Delay05_out1;  // sfix11_En3
 
 
-  always @(posedge clk or posedge reset) begin : del_proc
-    if (reset == 1'b1) begin
+  always @(posedge clk) begin : del_proc
+    if (reset) begin
       Delay01_out1 <= 11'sb00000000000;
       Delay02_out1 <= 11'sb00000000000;
       Delay03_out1 <= 11'sb00000000000;

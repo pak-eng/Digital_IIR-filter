@@ -1,3 +1,7 @@
+// Project name: Filter
+// Author: P. P. Kolbenkov
+// File description: IIR-part of filter
+
 `timescale 1 ns / 1 ns
 
 module IIR_section(
@@ -37,8 +41,8 @@ module IIR_section(
   wire signed [41:0] suma4_out1;  // sfix42_En31
   wire signed [27:0] suma6_out1;  // sfix28_En17
 
-  always @(posedge clk or posedge reset) begin : del_proc
-    if (reset == 1'b1) begin
+  always @(posedge clk) begin : del_proc
+    if (reset) begin
       Delay0_out1 <= 22'sb0000000000000000000000;
       Delay11_out1 <= 26'sb00000000000000000000000000;
       Delay12_out1 <= 26'sb00000000000000000000000000;

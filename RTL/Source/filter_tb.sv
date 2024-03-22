@@ -47,6 +47,9 @@ module filter_tb;
         .out        (signal_out)
     );
 
+    // Adding delays from .sdf file
+    initial $sdf_annotate("../Source/Phys_Syn_Res/filter_phys_delays.sdf", inst_filter);
+
     // The input signal cleaning task, will be used later in other tasks to separate 
     // them from each other
     task automatic clr();
