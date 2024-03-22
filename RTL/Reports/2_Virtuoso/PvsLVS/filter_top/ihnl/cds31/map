@@ -1,0 +1,5 @@
+( ( net
+( "gnd!" "inh_ground_gnd" )
+( "vdd5!" "inh_power_vdd5" )
+ )
+ )

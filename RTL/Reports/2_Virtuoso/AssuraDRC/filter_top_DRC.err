@@ -1,0 +1,95 @@
+================================================================================
+Rule No. 2094 : ant_met3_gate: R2M3P1 : Maximum ratio of MET3 area to connected GATE area = 400
+
+Real Error Count : 2; Flat Error Count : 2
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : filter_top layout filter_verif
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             2              2                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1               -371.660      -48.620     346.760      420.460
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X     -371.660    417.740   -371.160    418.440
+   2      X     -371.660    420.040   -371.160    420.460
+
+================================================================================
+Rule No. 2095 : ant_met3_met3: R2M3P1 : Maximum ratio of MET3 area to connected GATE area = 400
+
+Real Error Count : 2; Flat Error Count : 2
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : filter_top layout filter_verif
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             2              2                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1               -372.505      -50.590     536.965      430.980
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X     -372.505    430.700   -318.000    430.980
+   2      X     -318.000    430.090   -173.960    430.980
+
+================================================================================
+Rule No. 2098 : ant_met4_gate: R2M4P1 : Maximum ratio of MET4 area to connected GATE area = 400
+
+Real Error Count : 4; Flat Error Count : 4
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : filter_top layout filter_verif
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             4              4                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1               -493.740     -424.940      84.120      370.670
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X     -493.740   -155.630   -493.240   -154.960
+   2      X     -493.740   -153.400   -493.240   -152.980
+   3      X     -438.300    368.020   -437.800    368.440
+   4      X     -438.300    370.000   -437.800    370.670
+
+================================================================================
+Rule No. 2099 : ant_met4_met4: R2M4P1 : Maximum ratio of MET4 area to connected GATE area = 400
+
+Real Error Count : 3; Flat Error Count : 3
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : filter_top layout filter_verif
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             3              3                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1               -428.525     -438.600      96.545      366.980
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X     -428.525   -154.950   -427.615      0.000
+   2      X     -427.945      0.000   -427.565     35.190
+   3      X     -412.460    175.060   -411.635    366.980
+

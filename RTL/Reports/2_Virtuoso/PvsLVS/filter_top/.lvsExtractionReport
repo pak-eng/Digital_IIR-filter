@@ -1,0 +1,34 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : filter_top_lvs.sum
+ERC Summary File         : filter_top.sum
+LVS Comparison Report    : filter_top_lvs.sum.cls
+LVS Softchk Report       : filter_top.softchk
+Layout Name              : /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top/filter_top.gds ("filter_top")
+User Name                : student6
+Creation Time            : Sat Mar  5 18:20:05 2022
+Current directory        : /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top
+PVS Version              : 15.22-s262 Thu Dec 15 17:04:58 PST 2016
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK nwtrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK bulk -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK hwafer -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK ndftrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK pdftrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK dnwtrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nbase -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK pw4trm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK dhw_nbur -TYPE CONTACT   Total Result        0 (       0)

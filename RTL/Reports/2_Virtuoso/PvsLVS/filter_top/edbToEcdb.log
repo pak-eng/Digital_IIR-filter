@@ -1,0 +1,16 @@
+
+/home/Software/EDA/Cadence/PVS/PVS_15.22.000/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : filter_top_24521.db
+ECDB dir        : ./
+Top Cell        : filter_top
+CDL netlist     : svdb/filter_top.net
+Layer map file  : svdb/filter_top.ecdbmap
+Text map file   : svdb/filter_top.ports
+Dependency map  : filter_top.lmap.perc
+Lvs file        : svdb/filter_top.lvsfile
+Float net file : .filter_top.info.softchk
+debug           : 0
+Source Library  : filter_top_24521

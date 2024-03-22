@@ -1,0 +1,39 @@
+text_depth -primary;
+virtual_connect -colon no;
+virtual_connect -semicolon_as_colon yes;
+virtual_connect -noname;
+virtual_connect -report no;
+virtual_connect -depth -primary;
+lvs_ignore_ports no;
+lvs_expand_cell_on_error no;
+lvs_recognize_gates -all;
+lvs_break_ambig_max 32;
+lvs_abort -softchk no;
+lvs_abort -supply_error no;
+lvs_find_shorts no;
+sconnect_upper_shape_count no;
+lvs_report_file "filter_top_lvs.sum";
+lvs_report_max 1000 -mismatched_net_limit 100;
+lvs_run_erc_checks yes;
+lvs_report_opt -none;
+report_summary -erc "filter_top.sum" -replace;
+max_results -erc 1000;
+results_db -erc "/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top/filter_top_lvs.err" -ascii;
+keep_layers -none;
+schematic_format cdl;
+schematic_path "/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top/filter_top.cdl";
+abort_on_layout_error yes;
+layout_format gdsii;
+layout_path "/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top/filter_top.gds";
+//=== Configurator controls ===
+//   LVS CONFIGURATION  
+//   #Select DTI_&BOX_Cap#  
+#UNDEFINE DTI_&_BOX_Cap
+//   #Select Floating Checks#  
+#UNDEFINE FloatingGate
+#UNDEFINE FloatingWell
+//   #Special Diode Extraction#  
+#UNDEFINE ParaDioAsDevDio
+//   #Select DUMMY Pattern Generation#   
+#UNDEFINE DUMMY_FILL
+//=== End of configurator controls ===

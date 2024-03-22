@@ -1,0 +1,182 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.12s.
+*WARNING* COMBINE attribute library not defined
+ library: 'ieee' file: '/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/xt018_combine.lib', line: 22
+*WARNING* COMBINE attribute library not defined
+ library: 'ambit' file: '/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/xt018_combine.lib', line: 22
+*WARNING* COMBINE attribute library not defined
+ library: 'std' file: '/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/xt018_combine.lib', line: 22
+*WARNING* COMBINE attribute library not defined
+ library: 'synopsys' file: '/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/xt018_combine.lib', line: 22
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.7-64b 10/06/2017 20:09 (sjfhw315) $
+          : sub-version  IC6.1.7-64b.500.15 
+Started at: 05-Mar-2022  18:19:54
+User Name : student6
+Host Name : Cadence_SERVER
+Directory : /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+*WARNING* COMBINE attribute library not defined
+ library: 'connectLib' file: '/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/xt018_combine.lib', line: 22
+*WARNING* (TECH-2000203): Technology library 'D_CELLS_5V' is attached to technology library 'TECH_XT018'.
+ The local techDB takes precedence over property attachment in the new OA attachment policy.
+WARNING (XSTRM-20): Output Stream file '/home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top/filter_top.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/.xkit/setup/xt018/cadence/PDK/TECH_XT018_1243/strmInOut.layertable
+INFO (XSTRM-217): Reading the object map file, /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/.xkit/setup/xt018/cadence/PDK/TECH_XT018_1243/strmOutObjects.map
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 filter_verif
+strmFile                                /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top/filter_top.gds
+topCell                                 filter_top
+view                                    layout
+logFile                                 xstreamOut.log
+summaryFile                             xstreamOut.sum
+techLib                                 filter_verif
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/.xkit/setup/xt018/cadence/PDK/TECH_XT018_1243/strmInOut.layertable
+objectMap                                /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/.xkit/setup/xt018/cadence/PDK/TECH_XT018_1243/strmOutObjects.map
+userSkillFile                           /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top/strmout.il
+case                                    Preserve
+convertDot                              ignore
+convertPin                              geometryAndText
+outputDir                               .
+
+INFO (XSTRM-223): 1. Translating cellView TECH_XT018/via1Array/layout as STRUCTURE via1Array$$1.
+INFO (XSTRM-223): 2. Translating cellView TECH_XT018/via1Array/layout as STRUCTURE via1Array$$2.
+INFO (XSTRM-223): 3. Translating cellView TECH_XT018/via1Array/layout as STRUCTURE via1Array$$3.
+INFO (XSTRM-223): 4. Translating cellView TECH_XT018/via1Array/layout as STRUCTURE via1Array$$4.
+INFO (XSTRM-223): 5. Translating cellView TECH_XT018/VIA1_X_so/via as STRUCTURE VIA1_X_so.
+INFO (XSTRM-223): 6. Translating cellView TECH_XT018/VIA2_o/via as STRUCTURE VIA2_o.
+INFO (XSTRM-223): 7. Translating cellView TECH_XT018/VIA1_o/via as STRUCTURE VIA1_o.
+INFO (XSTRM-223): 8. Translating cellView TECH_XT018/VIATP_Y_so/via as STRUCTURE VIATP_Y_so.
+INFO (XSTRM-223): 9. Translating cellView TECH_XT018/VIA3_east_TOS_so/via as STRUCTURE VIA3_east_TOS_so.
+INFO (XSTRM-223): 10. Translating cellView TECH_XT018/VIA2_south_TOS_so/via as STRUCTURE VIA2_south_TOS_so.
+INFO (XSTRM-223): 11. Translating cellView TECH_XT018/VIA3_o/via as STRUCTURE VIA3_o.
+INFO (XSTRM-223): 12. Translating cellView TECH_XT018/VIA2_north_TOS_so/via as STRUCTURE VIA2_north_TOS_so.
+INFO (XSTRM-223): 13. Translating cellView TECH_XT018/VIA1_Y_so/via as STRUCTURE VIA1_Y_so.
+INFO (XSTRM-223): 14. Translating cellView TECH_XT018/VIA2_eo/via as STRUCTURE VIA2_eo.
+INFO (XSTRM-223): 15. Translating cellView TECH_XT018/VIA2_so/via as STRUCTURE VIA2_so.
+INFO (XSTRM-223): 16. Translating cellView TECH_XT018/VIATPne_beo/via as STRUCTURE VIATPne_beo.
+INFO (XSTRM-223): 17. Translating cellView TECH_XT018/VIATPnw_beo/via as STRUCTURE VIATPnw_beo.
+INFO (XSTRM-223): 18. Translating cellView TECH_XT018/VIA3_west_TOS_so/via as STRUCTURE VIA3_west_TOS_so.
+INFO (XSTRM-223): 19. Translating cellView TECH_XT018/VIATPL_so/via as STRUCTURE VIATPL_so.
+INFO (XSTRM-223): 20. Translating cellView TECH_XT018/VIA1_X_eo/via as STRUCTURE VIA1_X_eo.
+INFO (XSTRM-223): 21. Translating cellView TECH_XT018/VIA1_Y_eo/via as STRUCTURE VIA1_Y_eo.
+INFO (XSTRM-223): 22. Translating cellView TECH_XT018/VIA2_ne_TOS_beo/via as STRUCTURE VIA2_ne_TOS_beo.
+INFO (XSTRM-223): 23. Translating cellView TECH_XT018/VIATPsw_beo/via as STRUCTURE VIATPsw_beo.
+INFO (XSTRM-223): 24. Translating cellView TECH_XT018/VIA2_north_TOS_eo/via as STRUCTURE VIA2_north_TOS_eo.
+INFO (XSTRM-223): 25. Translating cellView TECH_XT018/VIA2_sw_TOS_beo/via as STRUCTURE VIA2_sw_TOS_beo.
+INFO (XSTRM-223): 26. Translating cellView TECH_XT018/VIA2_se_TOS_beo/via as STRUCTURE VIA2_se_TOS_beo.
+INFO (XSTRM-223): 27. Translating cellView TECH_XT018/VIATPL_eo/via as STRUCTURE VIATPL_eo.
+INFO (XSTRM-223): 28. Translating cellView TECH_XT018/VIA3_east_TOS_eo/via as STRUCTURE VIA3_east_TOS_eo.
+INFO (XSTRM-223): 29. Translating cellView D_CELLS_5V/BU_5VX1/layout as STRUCTURE BU_5VX1.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET1:pin' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 30. Translating cellView D_CELLS_5V/BU_5VX2/layout as STRUCTURE BU_5VX2.
+INFO (XSTRM-223): 31. Translating cellView D_CELLS_5V/BU_5VX0/layout as STRUCTURE BU_5VX0.
+INFO (XSTRM-223): 32. Translating cellView D_CELLS_5V/DLY2_5VX1/layout as STRUCTURE DLY2_5VX1.
+INFO (XSTRM-223): 33. Translating cellView D_CELLS_5V/DLY4_5VX1/layout as STRUCTURE DLY4_5VX1.
+INFO (XSTRM-223): 34. Translating cellView D_CELLS_5V/DLY8_5VX1/layout as STRUCTURE DLY8_5VX1.
+INFO (XSTRM-223): 35. Translating cellView D_CELLS_5V/BU_5VX3/layout as STRUCTURE BU_5VX3.
+INFO (XSTRM-223): 36. Translating cellView D_CELLS_5V/DLY1_5VX1/layout as STRUCTURE DLY1_5VX1.
+INFO (XSTRM-223): 37. Translating cellView D_CELLS_5V/BU_5VX6/layout as STRUCTURE BU_5VX6.
+INFO (XSTRM-223): 38. Translating cellView D_CELLS_5V/BU_5VX12/layout as STRUCTURE BU_5VX12.
+INFO (XSTRM-223): 39. Translating cellView D_CELLS_5V/BU_5VX16/layout as STRUCTURE BU_5VX16.
+INFO (XSTRM-223): 40. Translating cellView D_CELLS_5V/IN_5VX16/layout as STRUCTURE IN_5VX16.
+INFO (XSTRM-223): 41. Translating cellView D_CELLS_5V/IN_5VX3/layout as STRUCTURE IN_5VX3.
+INFO (XSTRM-223): 42. Translating cellView D_CELLS_5V/IN_5VX4/layout as STRUCTURE IN_5VX4.
+INFO (XSTRM-223): 43. Translating cellView D_CELLS_5V/IN_5VX1/layout as STRUCTURE IN_5VX1.
+INFO (XSTRM-223): 44. Translating cellView D_CELLS_5V/IN_5VX2/layout as STRUCTURE IN_5VX2.
+INFO (XSTRM-223): 45. Translating cellView D_CELLS_5V/BU_5VX4/layout as STRUCTURE BU_5VX4.
+INFO (XSTRM-223): 46. Translating cellView D_CELLS_5V/EO2_5VX1/layout as STRUCTURE EO2_5VX1.
+INFO (XSTRM-223): 47. Translating cellView D_CELLS_5V/HA_5VX1/layout as STRUCTURE HA_5VX1.
+INFO (XSTRM-223): 48. Translating cellView D_CELLS_5V/BU_5VX8/layout as STRUCTURE BU_5VX8.
+INFO (XSTRM-223): 49. Translating cellView D_CELLS_5V/EO3_5VX1/layout as STRUCTURE EO3_5VX1.
+INFO (XSTRM-223): 50. Translating cellView D_CELLS_5V/FA_5VX1/layout as STRUCTURE FA_5VX1.
+INFO (XSTRM-223): 51. Translating cellView D_CELLS_5V/CAG_5VX1/layout as STRUCTURE CAG_5VX1.
+INFO (XSTRM-223): 52. Translating cellView D_CELLS_5V/AN22_5VX1/layout as STRUCTURE AN22_5VX1.
+INFO (XSTRM-223): 53. Translating cellView D_CELLS_5V/OA21_5VX1/layout as STRUCTURE OA21_5VX1.
+INFO (XSTRM-223): 54. Translating cellView D_CELLS_5V/EN3_5VX1/layout as STRUCTURE EN3_5VX1.
+INFO (XSTRM-223): 55. Translating cellView D_CELLS_5V/AND2_5VX1/layout as STRUCTURE AND2_5VX1.
+INFO (XSTRM-223): 56. Translating cellView D_CELLS_5V/NO2I1_5VX1/layout as STRUCTURE NO2I1_5VX1.
+INFO (XSTRM-223): 57. Translating cellView D_CELLS_5V/EN2_5VX1/layout as STRUCTURE EN2_5VX1.
+INFO (XSTRM-223): 58. Translating cellView D_CELLS_5V/NA2_5VX1/layout as STRUCTURE NA2_5VX1.
+INFO (XSTRM-223): 59. Translating cellView D_CELLS_5V/AO21_5VX1/layout as STRUCTURE AO21_5VX1.
+INFO (XSTRM-223): 60. Translating cellView D_CELLS_5V/OR2_5VX1/layout as STRUCTURE OR2_5VX1.
+INFO (XSTRM-223): 61. Translating cellView D_CELLS_5V/NO2_5VX1/layout as STRUCTURE NO2_5VX1.
+INFO (XSTRM-223): 62. Translating cellView D_CELLS_5V/NA2I1_5VX1/layout as STRUCTURE NA2I1_5VX1.
+INFO (XSTRM-223): 63. Translating cellView D_CELLS_5V/AND4_5VX1/layout as STRUCTURE AND4_5VX1.
+INFO (XSTRM-223): 64. Translating cellView D_CELLS_5V/ON21_5VX1/layout as STRUCTURE ON21_5VX1.
+INFO (XSTRM-223): 65. Translating cellView D_CELLS_5V/NO22_5VX1/layout as STRUCTURE NO22_5VX1.
+INFO (XSTRM-223): 66. Translating cellView D_CELLS_5V/AN21_5VX1/layout as STRUCTURE AN21_5VX1.
+INFO (XSTRM-223): 67. Translating cellView D_CELLS_5V/ON211_5VX1/layout as STRUCTURE ON211_5VX1.
+INFO (XSTRM-223): 68. Translating cellView D_CELLS_5V/NO3I2_5VX1/layout as STRUCTURE NO3I2_5VX1.
+INFO (XSTRM-223): 69. Translating cellView D_CELLS_5V/EN2_5VX0/layout as STRUCTURE EN2_5VX0.
+INFO (XSTRM-223): 70. Translating cellView D_CELLS_5V/NO3I1_5VX1/layout as STRUCTURE NO3I1_5VX1.
+INFO (XSTRM-223): 71. Translating cellView D_CELLS_5V/EO2_5VX0/layout as STRUCTURE EO2_5VX0.
+INFO (XSTRM-223): 72. Translating cellView D_CELLS_5V/NA22_5VX1/layout as STRUCTURE NA22_5VX1.
+INFO (XSTRM-223): 73. Translating cellView D_CELLS_5V/NO3_5VX1/layout as STRUCTURE NO3_5VX1.
+INFO (XSTRM-223): 74. Translating cellView D_CELLS_5V/OA211_5VX1/layout as STRUCTURE OA211_5VX1.
+INFO (XSTRM-223): 75. Translating cellView D_CELLS_5V/AND3_5VX1/layout as STRUCTURE AND3_5VX1.
+INFO (XSTRM-223): 76. Translating cellView D_CELLS_5V/ON21_5VX4/layout as STRUCTURE ON21_5VX4.
+INFO (XSTRM-223): 77. Translating cellView D_CELLS_5V/MU2_5VX4/layout as STRUCTURE MU2_5VX4.
+INFO (XSTRM-223): 78. Translating cellView D_CELLS_5V/FA_5VX4/layout as STRUCTURE FA_5VX4.
+INFO (XSTRM-223): 79. Translating cellView D_CELLS_5V/HA_5VX4/layout as STRUCTURE HA_5VX4.
+INFO (XSTRM-223): 80. Translating cellView D_CELLS_5V/HA_5VX2/layout as STRUCTURE HA_5VX2.
+INFO (XSTRM-223): 81. Translating cellView D_CELLS_5V/DFRQ_5VX1/layout as STRUCTURE DFRQ_5VX1.
+INFO (XSTRM-223): 82. Translating cellView D_CELLS_5V/AN211_5VX1/layout as STRUCTURE AN211_5VX1.
+INFO (XSTRM-223): 83. Translating cellView D_CELLS_5V/EO3_5VX2/layout as STRUCTURE EO3_5VX2.
+INFO (XSTRM-223): 84. Translating cellView D_CELLS_5V/IN_5VX0/layout as STRUCTURE IN_5VX0.
+INFO (XSTRM-223): 85. Translating cellView D_CELLS_5V/ON22_5VX1/layout as STRUCTURE ON22_5VX1.
+INFO (XSTRM-223): 86. Translating cellView D_CELLS_5V/MU2_5VX1/layout as STRUCTURE MU2_5VX1.
+INFO (XSTRM-223): 87. Translating cellView D_CELLS_5V/OA22_5VX1/layout as STRUCTURE OA22_5VX1.
+INFO (XSTRM-223): 88. Translating cellView D_CELLS_5V/OR2_5VX0/layout as STRUCTURE OR2_5VX0.
+INFO (XSTRM-223): 89. Translating cellView D_CELLS_5V/NA2_5VX0/layout as STRUCTURE NA2_5VX0.
+INFO (XSTRM-223): 90. Translating cellView D_CELLS_5V/AO22_5VX1/layout as STRUCTURE AO22_5VX1.
+INFO (XSTRM-223): 91. Translating cellView D_CELLS_5V/NO2_5VX2/layout as STRUCTURE NO2_5VX2.
+INFO (XSTRM-223): 92. Translating cellView D_CELLS_5V/AND2_5VX2/layout as STRUCTURE AND2_5VX2.
+INFO (XSTRM-223): 93. Translating cellView D_CELLS_5V/DFRQ_5VX2/layout as STRUCTURE DFRQ_5VX2.
+INFO (XSTRM-223): 94. Translating cellView D_CELLS_5V/DFRQ_5VX4/layout as STRUCTURE DFRQ_5VX4.
+INFO (XSTRM-223): 95. Translating cellView D_CELLS_5V/FEED25_5V/layout as STRUCTURE FEED25_5V.
+INFO (XSTRM-223): 96. Translating cellView D_CELLS_5V/FEED10_5V/layout as STRUCTURE FEED10_5V.
+INFO (XSTRM-223): 97. Translating cellView D_CELLS_5V/FEED3_5V/layout as STRUCTURE FEED3_5V.
+INFO (XSTRM-223): 98. Translating cellView D_CELLS_5V/FEED1_5V/layout as STRUCTURE FEED1_5V.
+INFO (XSTRM-223): 99. Translating cellView D_CELLS_5V/FEED5_5V/layout as STRUCTURE FEED5_5V.
+INFO (XSTRM-223): 100. Translating cellView D_CELLS_5V/FEED2_5V/layout as STRUCTURE FEED2_5V.
+INFO (XSTRM-223): 101. Translating cellView D_CELLS_5V/FEED7_5V/layout as STRUCTURE FEED7_5V.
+INFO (XSTRM-223): 102. Translating cellView D_CELLS_5V/FEED15_5V/layout as STRUCTURE FEED15_5V.
+INFO (XSTRM-223): 103. Translating cellView filter_verif/filter_top/layout as STRUCTURE filter_top.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file. For details on the format of object map file, refer to the "Design Data Translator's Reference" guide for XStream.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Row' and the sub-object 'none'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file. For details on the format of object map file, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       32220
+	Array Instances:                        0
+	Polygons:                               820
+	Paths:                                  0
+	Rectangles:                             4403
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             141
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           1268
+	Custom Vias:                            113838
+	CdsGen Vias:                            0
+	Pathsegs:                               209485
+	Text:                                   476
+	TextDisplay:                            0
+	Cells:                                  103
+
+Elapsed Time: 0.6s   User Time: 0.4s   CPU Time: 0.1s   Peak VM: 47320KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '4' warning(s) found.

@@ -1,0 +1,6 @@
+( ( net
+( "[@ground_gnd:%:gnd!]" "inh_ground_gnd" )
+( "[@power_vdd5:%:vdd5!]" "inh_power_vdd5" )
+( "vdd5!" "vdd5!" )
+ )
+ )

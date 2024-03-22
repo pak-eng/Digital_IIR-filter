@@ -1,0 +1,59 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'filter_top layout filter_verif':
+  info: Assign net label "reset" at (-636.575, -450.610) to layer `met3trm'.
+  info: Assign net label "clk_div_3" at (-636.575, -375.510) to layer `met3trm'.
+  info: Assign net label "in<0>" at (-636.575, -300.410) to layer `met3trm'.
+  info: Assign net label "in<1>" at (-636.575, -225.310) to layer `met3trm'.
+  info: Assign net label "in<2>" at (-636.575, -150.210) to layer `met3trm'.
+  info: Assign net label "in<3>" at (-636.575, -75.110) to layer `met3trm'.
+  info: Assign net label "in<4>" at (-636.575, -0.010) to layer `met3trm'.
+  info: Assign net label "in<5>" at (-636.575, 75.090) to layer `met3trm'.
+  info: Assign net label "in<6>" at (-636.575, 150.190) to layer `met3trm'.
+  info: Assign net label "in<7>" at (-636.575, 225.290) to layer `met3trm'.
+  info: Assign net label "in<8>" at (-636.575, 300.390) to layer `met3trm'.
+  info: Assign net label "in<9>" at (-636.575, 375.490) to layer `met3trm'.
+  info: Assign net label "in<10>" at (-636.575, 450.590) to layer `met3trm'.
+  info: Assign net label "out<0>" at (636.575, -450.590) to layer `met3trm'.
+  info: Assign net label "out<1>" at (636.575, -360.470) to layer `met3trm'.
+  info: Assign net label "out<2>" at (636.575, -270.350) to layer `met3trm'.
+  info: Assign net label "out<3>" at (636.575, -180.230) to layer `met3trm'.
+  info: Assign net label "out<4>" at (636.575, -90.110) to layer `met3trm'.
+  info: Assign net label "out<5>" at (636.575, 0.010) to layer `met3trm'.
+  info: Assign net label "out<6>" at (636.575, 90.130) to layer `met3trm'.
+  info: Assign net label "out<7>" at (636.575, 180.250) to layer `met3trm'.
+  info: Assign net label "out<8>" at (636.575, 270.370) to layer `met3trm'.
+  info: Assign net label "out<9>" at (636.575, 360.490) to layer `met3trm'.
+  info: Assign net label "out<10>" at (636.575, 450.610) to layer `met3trm'.
+  info: Assign pin label "reset" at (-636.235, -450.610) to layer `met3trm'.
+  info: Assign pin label "clk_div_3" at (-636.235, -375.510) to layer `met3trm'.
+  info: Assign pin label "in<0>" at (-636.235, -300.410) to layer `met3trm'.
+  info: Assign pin label "in<1>" at (-636.235, -225.305) to layer `met3trm'.
+  info: Assign pin label "in<2>" at (-636.235, -150.205) to layer `met3trm'.
+  info: Assign pin label "in<3>" at (-636.235, -75.105) to layer `met3trm'.
+  info: Assign pin label "in<4>" at (-636.235, -0.005) to layer `met3trm'.
+  info: Assign pin label "in<5>" at (-636.235, 75.095) to layer `met3trm'.
+  info: Assign pin label "in<6>" at (-636.235, 150.200) to layer `met3trm'.
+  info: Assign pin label "in<7>" at (-636.235, 225.300) to layer `met3trm'.
+  info: Assign pin label "in<8>" at (-636.235, 300.400) to layer `met3trm'.
+  info: Assign pin label "in<9>" at (-636.235, 375.500) to layer `met3trm'.
+  info: Assign pin label "in<10>" at (-636.235, 450.600) to layer `met3trm'.
+  info: Assign pin label "out<0>" at (636.235, -450.610) to layer `met3trm'.
+  info: Assign pin label "out<1>" at (636.235, -360.490) to layer `met3trm'.
+  info: Assign pin label "out<2>" at (636.235, -270.365) to layer `met3trm'.
+  info: Assign pin label "out<3>" at (636.235, -180.245) to layer `met3trm'.
+  info: Assign pin label "out<4>" at (636.235, -90.120) to layer `met3trm'.
+  info: Assign pin label "out<5>" at (636.235, 0.000) to layer `met3trm'.
+  info: Assign pin label "out<6>" at (636.235, 90.120) to layer `met3trm'.
+  info: Assign pin label "out<7>" at (636.235, 180.245) to layer `met3trm'.
+  info: Assign pin label "out<8>" at (636.235, 270.365) to layer `met3trm'.
+  info: Assign pin label "out<9>" at (636.235, 360.490) to layer `met3trm'.
+  info: Assign pin label "out<10>" at (636.235, 450.610) to layer `met3trm'.
+  info: Assign net label "clk" at (-636.620, 450.245) to layer `met2trm'.
+  info: Assign pin label "clk" at (-636.600, 450.245) to layer `met2trm'.
+  info: Assign net label "vdd5!" at (-615.565, 433.490) to layer `met1trm'.
+  info: Assign net label "gnd!" at (-611.945, 430.255) to layer `met1trm'.
+
+***** End of Label Report *****
+

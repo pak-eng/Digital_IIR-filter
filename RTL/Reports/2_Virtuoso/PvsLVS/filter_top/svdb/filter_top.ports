@@ -1,0 +1,29 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary filter_top
+in<6> 1443 in<6> -636575 150190 m3trm
+in<7> 1444 in<7> -636575 225290 m3trm
+gnd! 1 gnd! -611945 430255 m1trm
+vdd5! 2 vdd5! -615565 433490 m1trm
+in<4> 1432 in<4> -636575 -10 m3trm
+in<10> 1445 in<10> -636575 450590 m3trm
+in<9> 1446 in<9> -636575 375490 m3trm
+in<8> 1447 in<8> -636575 300390 m3trm
+clk 1448 clk -636620 450245 m2trm
+out<1> 759 out<1> 636575 -360470 m3trm
+out<10> 1449 out<10> 636575 450610 m3trm
+out<0> 760 out<0> 636575 -450590 m3trm
+clk_div_3 748 clk_div_3 -636575 -375510 m3trm
+in<3> 761 in<3> -636575 -75110 m3trm
+out<9> 1450 out<9> 636575 360490 m3trm
+out<5> 1438 out<5> 636575 10 m3trm
+in<1> 762 in<1> -636575 -225310 m3trm
+out<8> 1451 out<8> 636575 270370 m3trm
+in<0> 749 in<0> -636575 -300410 m3trm
+out<2> 1439 out<2> 636575 -270350 m3trm
+in<2> 763 in<2> -636575 -150210 m3trm
+out<7> 1452 out<7> 636575 180250 m3trm
+out<6> 1453 out<6> 636575 90130 m3trm
+out<3> 1440 out<3> 636575 -180230 m3trm
+out<4> 1441 out<4> 636575 -90110 m3trm
+reset 12 reset -636575 -450610 m3trm
+in<5> 1442 in<5> -636575 75090 m3trm

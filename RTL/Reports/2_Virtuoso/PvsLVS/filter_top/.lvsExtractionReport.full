@@ -1,0 +1,134 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : filter_top_lvs.sum
+ERC Summary File         : filter_top.sum
+LVS Comparison Report    : filter_top_lvs.sum.cls
+LVS Softchk Report       : filter_top.softchk
+Layout Name              : /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top/filter_top.gds ("filter_top")
+User Name                : student6
+Creation Time            : Sat Mar  5 18:20:05 2022
+Current directory        : /home/student6/Kolbenkov_PP/Digital_ASIC/Virtuoso/PvsLVS/filter_top
+PVS Version              : 15.22-s262 Thu Dec 15 17:04:58 PST 2016
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK nwtrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK bulk -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK hwafer -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK ndftrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK pdftrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK dnwtrm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nbase -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK pw4trm -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK dhw_nbur -TYPE CONTACT   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "AN211_5VX1"
+ for cell "AN21_5VX1"
+ for cell "AN22_5VX1"
+ for cell "AND2_5VX1"
+ for cell "AND2_5VX2"
+ for cell "AND3_5VX1"
+ for cell "AND4_5VX1"
+ for cell "AO21_5VX1"
+ for cell "AO22_5VX1"
+ for cell "BU_5VX0"
+ for cell "BU_5VX1"
+ for cell "BU_5VX12"
+ for cell "BU_5VX16"
+ for cell "BU_5VX2"
+ for cell "BU_5VX3"
+ for cell "BU_5VX4"
+ for cell "BU_5VX6"
+ for cell "BU_5VX8"
+ for cell "CAG_5VX1"
+ for cell "DFRQ_5VX1"
+ for cell "DFRQ_5VX2"
+ for cell "DFRQ_5VX4"
+ for cell "DLY1_5VX1"
+ for cell "DLY2_5VX1"
+ for cell "DLY4_5VX1"
+ for cell "DLY8_5VX1"
+ for cell "EN2_5VX0"
+ for cell "EN2_5VX1"
+ for cell "EN3_5VX1"
+ for cell "EO2_5VX0"
+ for cell "EO2_5VX1"
+ for cell "EO3_5VX1"
+ for cell "EO3_5VX2"
+ for cell "FA_5VX1"
+ for cell "FA_5VX4"
+ for cell "FEED10_5V"
+ for cell "FEED15_5V"
+ for cell "FEED1_5V"
+ for cell "FEED25_5V"
+ for cell "FEED2_5V"
+ for cell "FEED3_5V"
+ for cell "FEED5_5V"
+ for cell "FEED7_5V"
+ for cell "HA_5VX1"
+ for cell "HA_5VX2"
+ for cell "HA_5VX4"
+ for cell "IN_5VX0"
+ for cell "IN_5VX1"
+ for cell "IN_5VX16"
+ for cell "IN_5VX2"
+ for cell "IN_5VX3"
+ for cell "IN_5VX4"
+ for cell "MU2_5VX1"
+ for cell "MU2_5VX4"
+ for cell "NA22_5VX1"
+ for cell "NA2I1_5VX1"
+ for cell "NA2_5VX0"
+ for cell "NA2_5VX1"
+ for cell "NO22_5VX1"
+ for cell "NO2I1_5VX1"
+ for cell "NO2_5VX1"
+ for cell "NO2_5VX2"
+ for cell "NO3I1_5VX1"
+ for cell "NO3I2_5VX1"
+ for cell "NO3_5VX1"
+ for cell "OA211_5VX1"
+ for cell "OA21_5VX1"
+ for cell "OA22_5VX1"
+ for cell "ON211_5VX1"
+ for cell "ON21_5VX1"
+ for cell "ON21_5VX4"
+ for cell "ON22_5VX1"
+ for cell "OR2_5VX0"
+ for cell "OR2_5VX1"
+ for cell "VIA1_X_eo"
+ for cell "VIA1_X_so"
+ for cell "VIA1_Y_eo"
+ for cell "VIA1_Y_so"
+ for cell "VIA1_o"
+ for cell "VIA2_eo"
+ for cell "VIA2_ne_TOS_beo"
+ for cell "VIA2_north_TOS_so"
+ for cell "VIA2_o"
+ for cell "VIA2_so"
+ for cell "VIA2_south_TOS_so"
+ for cell "VIA2_sw_TOS_beo"
+ for cell "VIA3_east_TOS_so"
+ for cell "VIA3_o"
+ for cell "VIA3_west_TOS_so"
+ for cell "VIATPL_so"
+ for cell "VIATP_Y_so"
+ for cell "VIATPne_beo"
+ for cell "VIATPnw_beo"
+ for cell "filter_top"
+ for cell "via1Array$$1"
+ for cell "via1Array$$2"
+ for cell "via1Array$$3"
+ for cell "via1Array$$4"
