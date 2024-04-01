@@ -36,13 +36,13 @@ The short description of ASIC source files:
 * **_op_mult.sv_** - file contatining all multiplication module descriptions. 
 
 Top-level architecture is presented below.
-![RTL_Architecture](..\README_Images\RTL_Architecture.png)
+![RTL_Architecture](../README_Images/RTL_Architecture.png)
 (_fs_ and _fs/3_ denotes sample rates at different stages of a design.)
 
 To illustrate **_FIR_section.sv_** and **_IIR_section.sv_** structure, imagine we have a filter with transform function in z-domain, that looks like this:
-$$H(z)=\dfrac{ \sum_{n=0}^{M} b_iz^i}{ 1 - \sum_{n=0}^{N} a_iz^i}$$
+<img src="..\README_Images\Filter_H.png" alt="Filter" height="50"/>
 We can rewrite the equation like this, splitting it in two parts:
-$$H(z) = \left( \sum_{n=0}^{M} b_iz^i \right) \times \left( \dfrac{1}{ 1 - \sum_{n=0}^{N} a_iz^i} \right) = H_{FIR}(z) \times H_{IIR}(z)$$
+<img src="..\README_Images\Filter_H_factorized.png" alt="FIR" height="50"/>
 
 <table>
     <tr>

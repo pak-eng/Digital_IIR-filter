@@ -40,15 +40,15 @@ Every arithmetic block's output bit depth was minimized to to such an extent tha
 
 # Project Results
 Filter's HDL-description is written in SystemVerilog, top-level architecture of this DSP-block is shown below.
-![RTL Architecture](README_Images\RTL_Architecture.png)
+![RTL Architecture](README_Images/RTL_Architecture.png)
 (_fs_ and _fs/3_ denotes sample rates at different stages of a design.)
 
 Testing filter with chirp-like input signal results in desired frequency response.
-![Filter Frequency Response](README_Images\Filter_Frequency_Response.png)
+![Filter Frequency Response](README_Images/Filter_Frequency_Response.png)
 
-Resulting filter has been synthesized, dimensions are 1290 $\mu$m by 890 $\mu$m, and total area is 1.1 $mm^{2}$. Final сore utilization is around 60-70%. 
+Resulting filter has been synthesized, dimensions are 1290 $`\mu`$ m by 890 $`\mu`$m, and total area is 1.1 $mm^{2}$. Final сore utilization is around 60-70%. 
 Here is an image of a layout from Encounter with rulers.
-![Layout in Encounter](README_Images\Encounter_Layout.png)
+![Layout in Encounter](README_Images/Encounter_Layout.png)
 
 # This directory contains two subdirectories:
 * **_/RTL_**,
