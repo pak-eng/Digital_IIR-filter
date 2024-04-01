@@ -40,9 +40,9 @@ Top-level architecture is presented below.
 (_fs_ and _fs/3_ denotes sample rates at different stages of a design.)
 
 To illustrate **_FIR_section.sv_** and **_IIR_section.sv_** structure, imagine we have a filter with transform function in z-domain, that looks like this:
-<img src="..\README_Images\Filter_H.png" alt="Filter" height="50"/>
+<img src="..\README_Images\Filter_H.png" alt="Filter" height="50"/> <br>
 We can rewrite the equation like this, splitting it in two parts:
-<img src="..\README_Images\Filter_H_factorized.png" alt="FIR" height="50"/>
+<img src="..\README_Images\Filter_H_factorized.png" alt="FIR" height="50"/> <br>
 
 <table>
     <tr>
