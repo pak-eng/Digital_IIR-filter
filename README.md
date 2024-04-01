@@ -46,9 +46,9 @@ Filter's HDL-description is written in SystemVerilog, top-level architecture of 
 Testing filter with chirp-like input signal results in desired frequency response.
 ![Filter Frequency Response](README_Images/Filter_Frequency_Response.png)
 
-Resulting filter has been synthesized, dimensions are 1290 $`\mu`$m by 890 $`\mu`$m, and total area is 1.1 $mm^{2}$. Final сore utilization is around 60-70%. <br>
-Here is an image of a layout from Encounter with rulers. <br>
+Here is an image of a layout from Encounter with rulers.
 ![Layout in Encounter](/README_Images/Encounter_Layout.png)
+Resulting filter has been synthesized, dimensions are 1290 $`\mu`$m by 890 $`\mu`$m, and total area is 1.1 $mm^{2}$. Final сore utilization is around 60-70%. <br>
 
 # This directory contains two subdirectories:
 * **_/RTL_**,
