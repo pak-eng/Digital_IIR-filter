@@ -47,8 +47,8 @@ Testing filter with chirp-like input signal results in desired frequency respons
 ![Filter Frequency Response](README_Images/Filter_Frequency_Response.png)
 
 Resulting filter has been synthesized, dimensions are 1290 $`\mu`$m by 890 $`\mu`$m, and total area is 1.1 $mm^{2}$. Final сore utilization is around 60-70%. 
-Here is an image of a layout from Encounter with rulers. <br>
-![Layout in Encounter](README_Images/Encounter_Layout.png) 
+Here is an image of a layout from Encounter with rulers.
+<img src="README_Images\Encounter_Layout.png" alt="Layout in Encounter"/> <br>
 
 # This directory contains two subdirectories:
 * **_/RTL_**,
