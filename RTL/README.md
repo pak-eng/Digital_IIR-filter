@@ -23,7 +23,39 @@ This directory contains all scripts used during synthesis including:
 * **_IO_assignment_** - file with ASIC IO-pads position assignment.
 
 ## _/Source_ 
-This directory contains all rtl-source files, testbench file, netlists after logical and physical synthesizes as well as back annotation in sdf-file and design in def-file.
+This directory contains all rtl-source files, testbench file, netlists after logical and physical synthesizes as well as back annotation in .sdf-file (Standard Delay Format) and design layout in .def-file (Design Exchange File).
+
+The short description of ASIC source files:
+* **_filter_top.sv_** - top level of filter; 
+* **_<span>Z1toZ3</span>.sv_** - input downsampling module; 
+* **_FIR_section.sv_** - structural-level description of Finite Impulse Response part of filter; 
+* **_IIR_section.sv_** - structural-level description of Infinite Impulse Response part of filter; 
+* **_OUT_MUX.sv_** - output upsamling module; 
+* **_filter_coeffs.sv_** - module contatining all filter constants (**_a_**'s and **_b_**'s in equation below); 
+* **_op_sum.sv_** - file contatining all accumulator module descriptions; 
+* **_op_mult.sv_** - file contatining all multiplication module descriptions. 
+
+Top-level architecture is presented below.
+![RTL_Architecture](..\README_Images\RTL_Architecture.png)
+(_fs_ and _fs/3_ denotes sample rates at different stages of a design.)
+
+To illustrate **_FIR_section.sv_** and **_IIR_section.sv_** structure, imagine we have a filter with transform function in z-domain, that looks like this:
+$$H(z)=\dfrac{ \sum_{n=0}^{M} b_iz^i}{ 1 - \sum_{n=0}^{N} a_iz^i}$$
+We can rewrite the equation like this, splitting it in two parts:
+$$H(z) = \left( \sum_{n=0}^{M} b_iz^i \right) \times \left( \dfrac{1}{ 1 - \sum_{n=0}^{N} a_iz^i} \right) = H_{FIR}(z) \times H_{IIR}(z)$$
+
+<table>
+    <tr>
+        <td>Basic sctructure of FIR-filter is presented below for <i><b>M</b>=2</i></td>
+        <td>Basic sctructure of IIR-filter is presented below for <i><b>N</b>=2</i></td>
+    </tr>
+    <tr>
+        <td> <img src="..\README_Images\Basic_FIR.png" alt="FIR"/> </td>
+        <td> <img src="..\README_Images\Basic_IIR.png" alt="IIR"/> </td>
+    </tr>
+</table>
+
+To better suit parallel-filter architecture, slight alterations have been made to the basic structures. 
 
 # How to synthesize ASIC layout from RTL-design:
 Firstly make directories for logs and temporary files in project root (this directoy)

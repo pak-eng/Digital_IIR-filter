@@ -15,4 +15,6 @@ To do that:
 Second subdirectory is used to generate reference data for RTL simulation.
 To do that run **_TestDataGen.m_**.
 		
-# <ins>All files for Simulink are for 2023 version of the program, but files for older version (2017) are included as well.</ins>
+## <ins>All files for Simulink are for 2023 version of the program, but files for older version (2017) are included as well.</ins>
+
+### Simulink model synthesis based on filter parameters requirements is covered in **_Simulink_model_Development.pdf_**
