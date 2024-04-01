@@ -33,9 +33,9 @@ Input/Output bit depth = 11 bits.
 Synthesis constraints:
 Target sample frequency = 20 MHz, clock uncertanty (jitter) = 10%.
 
-Filter's coefficients are calculated with **_MatLab's Filter Designer_** utility (fdatool).
-The resulting filter is 12-th order elliptic filter.
-Input samples are in fixed point representation so as arithmetics inside filter.
+Filter's coefficients are calculated with **_MatLab's Filter Designer_** utility (fdatool). <br>
+The resulting filter is 12-th order elliptic filter. <br>
+Input samples are in fixed point representation so as arithmetics inside filter. <br>
 Every arithmetic block's output bit depth was minimized to to such an extent that the output of fixed point filter model had a maximum error from refence model of no more then 0.5 LSBs.    
 
 # Project Results
@@ -46,8 +46,8 @@ Filter's HDL-description is written in SystemVerilog, top-level architecture of 
 Testing filter with chirp-like input signal results in desired frequency response.
 ![Filter Frequency Response](README_Images/Filter_Frequency_Response.png)
 
-Resulting filter has been synthesized, dimensions are 1290 $`\mu`$m by 890 $`\mu`$m, and total area is 1.1 $mm^{2}$. Final сore utilization is around 60-70%. 
-Here is an image of a layout from Encounter with rulers.
+Resulting filter has been synthesized, dimensions are 1290 $`\mu`$m by 890 $`\mu`$m, and total area is 1.1 $mm^{2}$. Final сore utilization is around 60-70%. <br>
+Here is an image of a layout from Encounter with rulers. <br>
 ![Layout in Encounter](/README_Images/Encounter_Layout.png)
 
 # This directory contains two subdirectories:
